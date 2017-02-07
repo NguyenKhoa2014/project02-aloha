@@ -416,7 +416,7 @@ input[type="button"] {
    right: 1px; 
    bottom: 2.5px;
    position: absolute;
-   height:100%;
+   height:95%;
 }
 
 input[type="submit"]:hover,
@@ -449,15 +449,21 @@ address {
 /****** Header Section ********/
     .logo {
         order: 1;
+        padding-left: 5px;
+        padding-top: 5px;
     }
 
      .nav {
          width: 60%;
          order: 2;
+         padding-top:18px;
+         font-weight:bold;
      }
 
      .cart {
          order: 3;
+         padding-top: 5px;
+         padding-right:5px;
      }
      
 
@@ -528,6 +534,7 @@ address {
     right: 0.2rem;
     top: 0.2rem;
     position:fixed;
+
      
 }
 .carousel-cell {
