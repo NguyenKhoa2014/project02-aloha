@@ -240,7 +240,8 @@ a:hover {
 .small {
    border: 4px solid white;
    position: relative;
-   height:10rem;
+   /*height:10rem;*/
+   height:14rem;
 }
 
 .large img:before,
@@ -251,6 +252,7 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100%;
 }
 .category-name a {
    color: white;
@@ -478,6 +480,7 @@ address {
    } 
    .flickity-viewport {
        text-align:center;
+       background-color: white;
    }
 
 .updates p {
@@ -541,10 +544,12 @@ button {
     .large {
         width: 50%;
         max-width:50%;
+        height:18rem;
     }
     .small {
         width: 25%;
         max-width:25%;
+        height: 18rem;
     }
     .purchase {
         display: block;
